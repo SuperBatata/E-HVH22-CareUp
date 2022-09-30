@@ -73,7 +73,31 @@ function Predictions() {
                 </VuiBox>
               </Card>
             </Grid>
-          </Grid> 
+
+            <Grid item xs={12} lg={6} xl={7}>
+              <Card>
+                <VuiBox sx={{ height: "100%" }}>
+                  <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
+                    Prediction de la demande sur les paracetamol
+                  </VuiTypography>
+                  <VuiBox display="flex" alignItems="center" mb="40px">
+                    <VuiTypography variant="button" color="success" fontWeight="bold">
+                      +45% more{" "}
+                      <VuiTypography variant="button" color="text" fontWeight="regular">
+                        in 2 months time
+                      </VuiTypography>
+                    </VuiTypography>
+                  </VuiBox>
+                  <VuiBox sx={{ height: "310px" }}>
+                    <BarChart
+                      barChartData={barChartDataDashboard}
+                      barChartOptions={barChartOptionsDashboard}
+                    />
+                  </VuiBox>
+                </VuiBox>
+              </Card>
+            </Grid>
+          </Grid>
         </Grid>
       </VuiBox>
     </DashboardLayout>
