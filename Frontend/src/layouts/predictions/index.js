@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Vision UI Free React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
@@ -60,26 +42,13 @@ import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptio
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";
 import { barChartOptionsDashboard } from "layouts/dashboard/data/barChartOptions";
 
-function Dashboard() {
-  const { gradients } = colors;
-  const { cardContent } = gradients;
-
+function Predictions() {
   return (
     <DashboardLayout>
       <DashboardNavbar />
-      <VuiBox py={3}>
+      <VuiBox py={30}>
         <VuiBox mb={3}></VuiBox>
-        <VuiBox mb={3}>
-          <Grid container spacing="18px">
-            <Grid item xs={12} lg={12} xl={5}>
-              <WelcomeMark />
-            </Grid>
-            <Grid item xs={12} lg={6} xl={3}>
-              <SatisfactionRate />
-            </Grid>
-          </Grid>
-        </VuiBox>
-        <VuiBox mb={3}>
+        <Grid container spacing="18px">
           <Grid container spacing={3}>
             <Grid item xs={12} lg={6} xl={7}>
               <Card>
@@ -104,37 +73,11 @@ function Dashboard() {
                 </VuiBox>
               </Card>
             </Grid>
-            <Grid item xs={12} lg={6} xl={5}>
-              <Card>
-                <VuiBox>
-                  <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
-                    Les pharmacies inscrites
-                  </VuiTypography>
-                  <VuiBox display="flex" alignItems="center" mb="40px">
-                    <VuiTypography variant="button" color="success" fontWeight="bold">
-                      (+5){" "}
-                      <VuiTypography variant="button" color="text" fontWeight="regular">
-                        dans les derniers 7 jours
-                      </VuiTypography>
-                    </VuiTypography>
-                  </VuiBox>
-                </VuiBox>
-              </Card>
-            </Grid>
-          </Grid>
-        </VuiBox>
-        <Grid container spacing={3} direction="row" justifyContent="center" alignItems="stretch">
-          <Grid item xs={12} md={6} lg={8}>
-            <Projects />
-          </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <OrderOverview />
-          </Grid>
+          </Grid> 
         </Grid>
       </VuiBox>
-      <Footer />
     </DashboardLayout>
   );
 }
 
-export default Dashboard;
+export default Predictions;
