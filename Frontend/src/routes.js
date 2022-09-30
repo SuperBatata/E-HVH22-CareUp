@@ -48,6 +48,7 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Insights from "layouts/insights";
 import Predictions from "layouts/predictions";
+import AddMedication from "layouts/insights/AddMedication";
 
 // Vision UI Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
@@ -139,6 +140,15 @@ const routes = [
     route: "/medicament/predictions",
     icon: <IoRocketSharp size="15px" color="inherit" />,
     component: Predictions,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "",
+    key: "",
+    route: "/medications/add",
+
+    component: AddMedication,
     noCollapse: true,
   },
 ];

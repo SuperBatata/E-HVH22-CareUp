@@ -29,8 +29,10 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import Table from "examples/Tables/Table";
 
+import VuiButton from "components/VuiButton";
 // Data
 import authorsTableData from "layouts/insights/data/MedicationsTableData";
+import { Button } from "@mui/material";
 
 function Insights() {
   const { columns, rows } = authorsTableData;
@@ -39,6 +41,16 @@ function Insights() {
     <DashboardLayout>
       <DashboardNavbar />
       <VuiBox py={14}>
+        <VuiButton variant="contained" color="primary">
+          <Button
+            variant="primary"
+            onClick={() => {
+              window.location.href = "/medications/add";
+            }}
+          >
+            ajouter medicament
+          </Button>
+        </VuiButton>
         <VuiBox mb={3}>
           <Card>
             <VuiBox display="flex" justifyContent="space-between" alignItems="center" mb="22px">
