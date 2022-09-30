@@ -41,7 +41,8 @@ function VuiAlert({ color, dismissible, children, ...rest }) {
     <Fade in={mount} timeout={300}>
       <VuiAlertRoot ownerState={{ color }} {...rest}>
         <VuiBox display="flex" alignItems="center" color="white">
-          {children}
+          {/* {children} */}
+          hello
         </VuiBox>
         {dismissible ? (
           <VuiAlertCloseIcon onClick={mount ? handleAlertStatus : null}>&times;</VuiAlertCloseIcon>

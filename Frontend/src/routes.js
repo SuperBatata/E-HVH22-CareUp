@@ -46,6 +46,7 @@ import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
+import Insights from "layouts/insights";
 
 // Vision UI Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
@@ -119,6 +120,15 @@ const routes = [
     route: "/authentication/sign-up",
     icon: <IoRocketSharp size="15px" color="inherit" />,
     component: SignUp,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Insights",
+    key: "insights",
+    route: "/medicament/insights",
+    icon: <IoRocketSharp size="15px" color="inherit" />,
+    component: Insights,
     noCollapse: true,
   },
 ];
