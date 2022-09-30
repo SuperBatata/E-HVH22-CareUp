@@ -58,9 +58,9 @@ function Predictions() {
                   </VuiTypography>
                   <VuiBox display="flex" alignItems="center" mb="40px">
                     <VuiTypography variant="button" color="success" fontWeight="bold">
-                      +20% more{" "}
+                      +20% plus{" "}
                       <VuiTypography variant="button" color="text" fontWeight="regular">
-                        in 3 months time
+                        dans 3 mois
                       </VuiTypography>
                     </VuiTypography>
                   </VuiBox>
@@ -82,9 +82,9 @@ function Predictions() {
                   </VuiTypography>
                   <VuiBox display="flex" alignItems="center" mb="40px">
                     <VuiTypography variant="button" color="success" fontWeight="bold">
-                      +45% more{" "}
+                      +45% plus{" "}
                       <VuiTypography variant="button" color="text" fontWeight="regular">
-                        in 2 months time
+                        dans 2 mois
                       </VuiTypography>
                     </VuiTypography>
                   </VuiBox>

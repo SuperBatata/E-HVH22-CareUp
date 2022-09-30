@@ -55,7 +55,7 @@ function Insights() {
           <Card>
             <VuiBox display="flex" justifyContent="space-between" alignItems="center" mb="22px">
               <VuiTypography variant="lg" color="white">
-                Medications Availability
+                Disponibilité des médicaments
               </VuiTypography>
             </VuiBox>
             <VuiBox

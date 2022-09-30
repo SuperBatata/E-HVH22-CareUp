@@ -43,7 +43,7 @@ export default {
       status: (
         <VuiBadge
           variant="standard"
-          badgeContent="Available"
+          badgeContent="Disponible"
           color="success"
           size="xs"
           container
@@ -62,7 +62,7 @@ export default {
       ),
       action: (
         <VuiTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-          Edit
+          modifier
         </VuiTypography>
       ),
     },
@@ -72,7 +72,7 @@ export default {
       status: (
         <VuiBadge
           variant="standard"
-          badgeContent="not available"
+          badgeContent="Non Disponible"
           size="xs"
           container
           sx={({ palette: { white, error }, borders: { borderRadius, borderWidth } }) => ({
@@ -90,7 +90,7 @@ export default {
       ),
       action: (
         <VuiTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-          Edit
+          modifier
         </VuiTypography>
       ),
     },
@@ -100,7 +100,7 @@ export default {
       status: (
         <VuiBadge
           variant="standard"
-          badgeContent="Available"
+          badgeContent="Disponible"
           color="success"
           size="xs"
           container
@@ -119,7 +119,7 @@ export default {
       ),
       action: (
         <VuiTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-          Edit
+          modifier
         </VuiTypography>
       ),
     },
@@ -129,7 +129,7 @@ export default {
       status: (
         <VuiBadge
           variant="standard"
-          badgeContent="Available"
+          badgeContent="Disponible"
           color="success"
           size="xs"
           container
@@ -148,7 +148,7 @@ export default {
       ),
       action: (
         <VuiTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-          Edit
+          modifier
         </VuiTypography>
       ),
     },
@@ -158,7 +158,7 @@ export default {
       status: (
         <VuiBadge
           variant="standard"
-          badgeContent="not available"
+          badgeContent="Non Disponible"
           size="xs"
           color="error"
           container
@@ -177,7 +177,7 @@ export default {
       ),
       action: (
         <VuiTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-          Edit
+          modifier
         </VuiTypography>
       ),
     },
@@ -187,7 +187,7 @@ export default {
       status: (
         <VuiBadge
           variant="standard"
-          badgeContent="not available"
+          badgeContent="Non Disponible"
           size="xs"
           color="error"
           container
@@ -206,7 +206,7 @@ export default {
       ),
       action: (
         <VuiTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-          Edit
+          modifier
         </VuiTypography>
       ),
     },

@@ -47,9 +47,9 @@ function SignIn() {
 
   return (
     <CoverLayout
-      title="Nice to see you!"
+      title="Bienvenu!"
       color="white"
-      description="Enter your email and password to sign in"
+      description="tappez votre email et mot de passe pour vous connecter"
       premotto="CareUp"
       motto="For a better life"
       image={bgSignIn}
@@ -112,7 +112,14 @@ function SignIn() {
           </VuiTypography>
         </VuiBox>
         <VuiBox mt={4} mb={1}>
-          <VuiButton color="info" fullWidth>
+          <VuiButton
+            color="info"
+            fullWidth
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "/dashboard";
+            }}
+          >
             SIGN IN
           </VuiButton>
         </VuiBox>

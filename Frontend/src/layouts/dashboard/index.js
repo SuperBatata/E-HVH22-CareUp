@@ -89,9 +89,9 @@ function Dashboard() {
                   </VuiTypography>
                   <VuiBox display="flex" alignItems="center" mb="40px">
                     <VuiTypography variant="button" color="success" fontWeight="bold">
-                      +20% more{" "}
+                      +20% plus{" "}
                       <VuiTypography variant="button" color="text" fontWeight="regular">
-                        in 3 months time
+                        dans 3 mois
                       </VuiTypography>
                     </VuiTypography>
                   </VuiBox>
